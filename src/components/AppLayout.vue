@@ -11,10 +11,7 @@ export default {
 
 <template>
   <div class="root">
-    <div
-      style="background-image: url(../../public/img/bg-1.jpg)"
-      class="img"
-    ></div>
+    <div :style="`background-image: url(${imgUrl})`" class="img"></div>
     <div class="main">
       <div class="btns">
         <el-button

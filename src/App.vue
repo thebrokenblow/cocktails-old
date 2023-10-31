@@ -1,5 +1,5 @@
 <template>
-  <RouterView />
+  <RouterView imgUrl="../img/bg-1.jpg" />
 </template>
 
 <script setup>
